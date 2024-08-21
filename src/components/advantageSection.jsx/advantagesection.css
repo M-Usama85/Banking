@@ -1,0 +1,25 @@
+.advantages-section {
+  background-color: rgb(234, 240, 246);
+  flex-wrap: wrap;
+}
+
+.advantage-content .MuiSvgIcon-root {
+  color: var(--secondary-color);
+  transform: rotate(180deg);
+  font-size: 40px;
+}
+
+.advantage-content .desc {
+  font-size: 18px;
+}
+
+.advantage-content .auther {
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+.advantage-content .position {
+  font-size: 14px;
+  color: gray;
+  font-style: italic;
+}

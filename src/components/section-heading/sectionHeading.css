@@ -1,0 +1,45 @@
+.section-heading {
+  text-align: center;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 200px;
+}
+.section-heading.dark-heading {
+  color: black;
+}
+
+.section-heading .divider {
+  height: 40px;
+  width: 2px;
+  background-color: #ffff;
+  margin-bottom: 20px;
+}
+
+.section-heading.dark-heading .divider {
+  background-color: rgb(155, 155, 155);
+}
+
+.section-heading h1 {
+  font-size: 39px;
+  font-weight: 300;
+}
+
+.section-heading p {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+@media (max-width: 991px) {
+  .section-heading {
+    padding: 10px 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-heading {
+    padding: 10px 25px;
+  }
+}

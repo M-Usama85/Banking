@@ -1,0 +1,47 @@
+.why-features {
+  color: var(--white);
+  align-items: center;
+}
+
+.why-features .feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.why-features .feature .MuiSvgIcon-root {
+  font-size: 80px;
+  color: var(--secondary-color);
+}
+
+.why-features .feature h3 {
+  font-size: 18px;
+}
+
+.why-features .feature p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.left-column .feature {
+  text-align: right;
+}
+
+@media (max-width: 991px) {
+  .mobile-img {
+    display: none !important;
+  }
+
+  .why-features .feature {
+    flex-direction: column;
+  }
+
+  .feature-content,
+  .left-column .feature {
+    text-align: center !important;
+  }
+
+  .left-column .feature {
+    flex-direction: column-reverse !important;
+    align-items: center;
+  }
+}

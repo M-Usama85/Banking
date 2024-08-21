@@ -1,0 +1,20 @@
+.btn {
+  padding: 15px 50px !important;
+  font-size: 18px !important;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 35px !important;
+  background: linear-gradient(to bottom, var(--primary-color), #7b59d0);
+  border: none;
+  box-shadow: 0 3px 20px 4px rgba(0, 0, 0, 0.082) !important;
+  margin-top: 30px;
+  transition: 0.3s !important ;
+  color: var(--white) !important;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #ffff, #ffffff);
+  color: var(--secondary-color) !important;
+}

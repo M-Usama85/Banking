@@ -1,0 +1,12 @@
+.whyUs {
+  background-color: var(--primary-color);
+  padding-bottom: 50px;
+}
+
+.why-cards {
+  margin-top: -40px;
+}
+
+.why-cards .col-12 {
+  z-index: 10000 !important;
+}

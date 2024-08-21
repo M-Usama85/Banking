@@ -1,0 +1,17 @@
+.advantage-card {
+  background-color: var(--white);
+  padding: 30px 20px;
+  text-align: center;
+  height: 100%;
+}
+.advantage-card .MuiSvgIcon-root {
+  font-size: 80px !important;
+  color: var(--secondary-color) !important;
+}
+.advantage-card h6 {
+  font-size: 20px !important;
+}
+.advantage-card p {
+  font-size: 16px !important;
+  color: #6c757d;
+}
